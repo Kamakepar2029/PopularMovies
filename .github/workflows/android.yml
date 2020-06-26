@@ -38,7 +38,7 @@ jobs:
     - name: Git init
       run: git init
     - name: .appbuild
-      run: git add app/build
+      run: git add -f app/build
     - name: Git create
       run: git config --global user.email "user@xaker.tk"
     - name: Github Identify
