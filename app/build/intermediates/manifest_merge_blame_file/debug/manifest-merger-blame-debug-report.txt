@@ -1,0 +1,90 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ajdi.yassin.popularmovies"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/home/runner/work/PopularMovies/PopularMovies/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/home/runner/work/PopularMovies/PopularMovies/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/runner/work/PopularMovies/PopularMovies/app/src/main/AndroidManifest.xml:6:5-67
+11-->/home/runner/work/PopularMovies/PopularMovies/app/src/main/AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/home/runner/work/PopularMovies/PopularMovies/app/src/main/AndroidManifest.xml:7:5-79
+12-->/home/runner/work/PopularMovies/PopularMovies/app/src/main/AndroidManifest.xml:7:22-76
+13
+14    <application
+14-->/home/runner/work/PopularMovies/PopularMovies/app/src/main/AndroidManifest.xml:9:5-34:19
+15        android:name="com.ajdi.yassin.popularmovies.MoviesApplication"
+15-->/home/runner/work/PopularMovies/PopularMovies/app/src/main/AndroidManifest.xml:10:9-71
+16        android:allowBackup="true"
+16-->/home/runner/work/PopularMovies/PopularMovies/app/src/main/AndroidManifest.xml:11:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.1.0] /home/runner/.gradle/caches/transforms-2/files-2.1/5b454e4f1a30a31f78d2352c725b41cb/core-1.1.0/AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->/home/runner/work/PopularMovies/PopularMovies/app/src/main/AndroidManifest.xml:12:9-43
+20        android:label="@string/app_name"
+20-->/home/runner/work/PopularMovies/PopularMovies/app/src/main/AndroidManifest.xml:13:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->/home/runner/work/PopularMovies/PopularMovies/app/src/main/AndroidManifest.xml:14:9-54
+22        android:supportsRtl="true"
+22-->/home/runner/work/PopularMovies/PopularMovies/app/src/main/AndroidManifest.xml:15:9-35
+23        android:theme="@style/AppTheme"
+23-->/home/runner/work/PopularMovies/PopularMovies/app/src/main/AndroidManifest.xml:16:9-40
+24        android:usesCleartextTraffic="true" >
+24-->/home/runner/work/PopularMovies/PopularMovies/app/src/main/AndroidManifest.xml:17:9-44
+25        <activity
+25-->/home/runner/work/PopularMovies/PopularMovies/app/src/main/AndroidManifest.xml:20:9-28:20
+26            android:name="com.ajdi.yassin.popularmovies.ui.movieslist.MoviesActivity"
+26-->/home/runner/work/PopularMovies/PopularMovies/app/src/main/AndroidManifest.xml:21:13-86
+27            android:launchMode="singleTop" >
+27-->/home/runner/work/PopularMovies/PopularMovies/app/src/main/AndroidManifest.xml:22:13-43
+28            <intent-filter>
+28-->/home/runner/work/PopularMovies/PopularMovies/app/src/main/AndroidManifest.xml:23:13-27:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->/home/runner/work/PopularMovies/PopularMovies/app/src/main/AndroidManifest.xml:24:17-69
+29-->/home/runner/work/PopularMovies/PopularMovies/app/src/main/AndroidManifest.xml:24:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->/home/runner/work/PopularMovies/PopularMovies/app/src/main/AndroidManifest.xml:26:17-77
+31-->/home/runner/work/PopularMovies/PopularMovies/app/src/main/AndroidManifest.xml:26:27-74
+32            </intent-filter>
+33        </activity>
+34        <activity
+34-->/home/runner/work/PopularMovies/PopularMovies/app/src/main/AndroidManifest.xml:29:9-31:103
+35            android:name="com.ajdi.yassin.popularmovies.ui.moviedetails.DetailsActivity"
+35-->/home/runner/work/PopularMovies/PopularMovies/app/src/main/AndroidManifest.xml:30:13-89
+36            android:parentActivityName="com.ajdi.yassin.popularmovies.ui.movieslist.MoviesActivity" />
+36-->/home/runner/work/PopularMovies/PopularMovies/app/src/main/AndroidManifest.xml:31:13-100
+37        <activity
+37-->/home/runner/work/PopularMovies/PopularMovies/app/src/main/AndroidManifest.xml:32:9-33:74
+38            android:name="com.ajdi.yassin.popularmovies.LoadingActivity"
+38-->/home/runner/work/PopularMovies/PopularMovies/app/src/main/AndroidManifest.xml:32:19-50
+39            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+39-->/home/runner/work/PopularMovies/PopularMovies/app/src/main/AndroidManifest.xml:33:13-71
+40
+41        <service
+41-->[androidx.room:room-runtime:2.1.0] /home/runner/.gradle/caches/transforms-2/files-2.1/4ca1c6032bdda72b2d00c8e2b7da40b3/room-runtime-2.1.0/AndroidManifest.xml:25:9-27:40
+42            android:name="androidx.room.MultiInstanceInvalidationService"
+42-->[androidx.room:room-runtime:2.1.0] /home/runner/.gradle/caches/transforms-2/files-2.1/4ca1c6032bdda72b2d00c8e2b7da40b3/room-runtime-2.1.0/AndroidManifest.xml:26:13-74
+43            android:exported="false" />
+43-->[androidx.room:room-runtime:2.1.0] /home/runner/.gradle/caches/transforms-2/files-2.1/4ca1c6032bdda72b2d00c8e2b7da40b3/room-runtime-2.1.0/AndroidManifest.xml:27:13-37
+44
+45        <provider
+45-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/runner/.gradle/caches/transforms-2/files-2.1/f629bab63b95b694d228f1862b76befa/lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
+46            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+46-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/runner/.gradle/caches/transforms-2/files-2.1/f629bab63b95b694d228f1862b76befa/lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79
+47            android:authorities="com.ajdi.yassin.popularmovies.lifecycle-process"
+47-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/runner/.gradle/caches/transforms-2/files-2.1/f629bab63b95b694d228f1862b76befa/lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
+48            android:exported="false"
+48-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/runner/.gradle/caches/transforms-2/files-2.1/f629bab63b95b694d228f1862b76befa/lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
+49            android:multiprocess="true" />
+49-->[androidx.lifecycle:lifecycle-process:2.1.0] /home/runner/.gradle/caches/transforms-2/files-2.1/f629bab63b95b694d228f1862b76befa/lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
+50    </application>
+51
+52</manifest>

@@ -1,0 +1,4 @@
+#Fri Jun 26 10:41:43 UTC 2020
+base.0=/home/runner/work/PopularMovies/PopularMovies/app/build/intermediates/dex/release/mergeDexRelease/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
